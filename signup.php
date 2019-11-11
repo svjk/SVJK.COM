@@ -9,7 +9,9 @@
   <meta name="description" content="">
   
   <title>Swami Vivekananda Jnana Kendra</title>
- <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -81,21 +83,60 @@
 <section class="engine"><a href="https://mobirise.info/j"></a></section><section class="mbr-section form4 cid-rm0unb6mMM" id="form4-23">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 
                 <div>
                     <div class="icon-block pb-3">
                         <span class="icon-block__icon">
                             <span class="mbri-letter mbr-iconfont"></span>
                         </span>
-                        <h4 class="icon-block__title align-left mbr-fonts-style display-5">
-                            Sign up
-                        </h4>
+                        
                     </div>                   
                 </div>
-                <div data-form-type="formoid">
+                <div data-form-type="formoid"  style="display:float;" >
                     <!---Formbuilder Form--->
                     <form action="signup.php" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form">
+					<div class="section-title lines">
+                    <h3>
+                        <span class="text">Sign up using</span>
+                    </h3>
+                </div>
+				<center>
+                        <button type="button" style="background-color:Blue;padding: 10px;border-radius: 12px;" class="button button-primary button-oa2-facebook login-provider register-oa2-facebook" data-provider-url="/auth/login/facebook/?auth_entry=register&amp;next=%2Fdashboard">
+                            <div class="icon " aria-hidden="true">
+                                
+                                    <img class="icon-image" src="https://edxuploads.s3.amazonaws.com/flogo-HexRBG-Wht-58.svg" alt="Facebook icon" height="50px" width="50px">
+                                
+                            </div>
+                        </button>
+						<span style="padding:50px;"></span>
+                        <button type="button" style="background-color:white;padding: 10px;border-radius: 12px;" class="button button-primary button-oa2-google-oauth2 login-provider register-oa2-google-oauth2" data-provider-url="/auth/login/google-oauth2/?auth_entry=register&amp;next=%2Fdashboard">
+                            <div class="icon " aria-hidden="true">
+                                
+                                    <img class="icon-image" src="https://edxuploads.s3.amazonaws.com/btn_google_light.svg" alt="Google icon" height="50px" width="50px">
+                                
+                            </div>
+            
+                        </button>
+						<span style="padding:50px;"></span>
+                        <button type="button" style="background-color:white;padding: 10px;border-radius: 12px;" class="button button-primary button-oa2-azuread-oauth2 login-provider register-oa2-azuread-oauth2" data-provider-url="/auth/login/azuread-oauth2/?auth_entry=register&amp;next=%2Fdashboard">
+                            <div class="icon " aria-hidden="true">
+                                
+                                    <img class="icon-image" src="https://dmtyylqvwgyxw.cloudfront.net/instances/222/uploads/images/custom_image/image/35615/square-linkedin-512.png?v=1553018802" alt="Microsoft icon" height="50px" width="50px" >
+                                
+                            </div>
+                        </button>
+						<span style="padding:50px;"></span>
+						</center>
+                </div>
+
+                
+            </div>
+			<div class="section-title lines">
+                <h3>
+                    <span class="text">or create a new one here</span>
+                </h3>
+            </div>
 					 <div class="dragArea row">
 					  <div data-for="email" class="col-md-12  form-group">
                                 <input type="text" name="email" placeholder="Email" data-form-field="Email" class="form-control input display-7" required="required" id="email-form4-23">
