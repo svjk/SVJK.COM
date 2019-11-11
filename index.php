@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  <style>
+  <style type="text/css">
   .selectpicker{
   border:none;
 	padding: 10px 30px 0 0;
